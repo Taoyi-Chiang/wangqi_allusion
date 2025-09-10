@@ -10,10 +10,10 @@ from tqdm import tqdm
 author_name = ""
 
 # === 路徑設定（範例）===
-SENTENCE_MATCH_JSON_PATH = Path(r"D:/zicai/sentence_allusion.json")
-MAIN_JSON_PATH           = Path(r"D:/zicai/manual_origin_text_ckip.json")
-COMPARED_TEXT_PATH       = Path(r"D:/lufu_allusion/data/raw/compared_text/")
-OUTPUT_CSV_PATH          = Path(r"D:/zicai/direct_allusion.csv")
+SENTENCE_MATCH_JSON_PATH = Path(r"D:/wangqi_allusion/output/origin_text.json")
+MAIN_JSON_PATH           = Path(r"D:/wangqi_allusion/output/manual_origin_text_ckip.json")
+COMPARED_TEXT_PATH       = Path(r"D:/lufu_allusion/data/raw/compared_text/十三經")
+OUTPUT_CSV_PATH          = Path(r"D:/wangqi_allusion/output/direct_allusion.csv")
 
 # 用於切句的字元
 CHARS_TO_REMOVE = "﹔。，、：；！？（）〔〕「」[]『』《》〈〉\\#\\-\\－\\(\\)\\[\\]\\]\\\\/ ,.:;!?~1234567890¶"
